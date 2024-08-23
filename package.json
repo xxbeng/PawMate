@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint:fix": "cd frontend && npm run lint:fix && cd ../backend && npm run lint:fix",
+    "format": "cd frontend && npm run format && cd ../backend && npm run format"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15"
+  }
+}

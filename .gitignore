@@ -1,0 +1,9 @@
+*node_modules
+*.env
+.idea
+mongo-data/
+backend/app/
+backend/media/
+.vscode/
+
+.DS_Store
